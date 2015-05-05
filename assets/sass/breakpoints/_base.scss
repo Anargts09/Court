@@ -1,0 +1,527 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Base Mobile Stylesheet
+
+Be light and don't over style since everything here will be
+loaded by mobile devices. You want to keep it as minimal as
+possible. This is called at the top of the main stylsheet
+and will be used across all viewports.
+
+******************************************************************/
+@import "compass/css3";
+/*********************
+
+/* GENERAL */
+  body{
+      font-family: $roboto;
+  }
+  .dividert{
+    background: $divider;
+    width: 100%;
+    height: 1px;
+    margin: 27px 0 24px;
+  }
+
+/* TOP BAR   */
+  .top-bar{
+    background: $topbar;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 30px;
+    ul{
+      margin: 0 0 0 5px;
+      padding: 0;
+      list-style: none;
+      li{
+        display: inline-block;
+        margin-right: 15px;
+        a{
+          color: $topbara;
+        }
+      }
+      &.pull-right{
+        li{
+          margin-left: 15px;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+/* HEADER    */
+  .header{
+    .bg{
+      clear: both;
+      width: 100%;
+      height: 110px;
+      background: url(../img/bg-header.png) no-repeat center;
+      form{
+        margin-top: 35px
+      }
+    }
+    .logo{
+      display: block;
+      margin-top: 20px;
+    }
+  }
+
+/* MAIN MENU */
+  .navbar-default{
+    background: none repeat scroll 0 0 $menu;
+    border: medium none;
+    ul{
+      background: transparent;
+      li{
+        a{
+          color: white!important;
+          margin: 0 2px;
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+/* MAIN CONTENT*/
+  section{
+    .section-title{
+      font-size: 16px;
+      margin-bottom: 22px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $topbar;
+      line-height: 44px;
+      float: left;
+      margin-top: -15px;
+      margin-right: 15px;
+    }
+    .stripe-line {
+      background: url("../img/title.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+      height: 12px;
+      margin-top: 10px;
+      overflow: hidden;
+    }
+    .section-content{
+      clear: left;
+    }
+    .newsThumbnail{
+      position: relative;
+      display: block;
+      @include transition(all 0.2s ease-in-out);
+      .overlay{
+        background: rgba(0,0,0,0.7);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0 24px;
+        width: 100%;
+        .title{
+          font-size: 16px;
+          color: white;
+        }
+      }
+      .overlay-bottom{
+        .title{
+          font-size: 15px;
+          font-weight: bold;
+          line-height: 20px;
+          color:  $menu;
+        }
+      }
+      .overlay-right{
+        .title{
+          font-size: 14px;
+          font-weight: normal;
+          color:  $black;
+          @include transition(all 0.2s ease-in-out);
+          line-height: 20px;
+          margin-top: -0.2em;
+        }
+        .date{
+          font-size: 13px;
+          color: $grayd5;
+          float: right;
+        }
+      }
+      .left{
+        float: left;
+        margin-right: 13px;
+        width: 112px;
+        height: 85px;
+      }
+      &:hover{
+        text-decoration: none;
+        .overlay-right{
+          .title{
+            color: $menu;
+          }
+        }
+      }
+    }
+    .tab-content{
+      .newsThumbnail{
+        padding: 15px 0;
+        border-bottom: 1px solid $divider;
+      }
+    }
+  }
+
+/* SIDEBAR*/
+  .links{
+    margin: -6px 0 30px;
+    padding-left: 44px;
+    li{
+      position: relative;
+      margin-bottom: 8px;
+      a{
+        font-size: 14px;
+        color: $gray79;
+      }
+      &:after{
+        position: absolute;
+        left: -26px;
+        top: 2px;
+        content:  "\f105";
+        color: $gray79;
+        font-size: 15px;
+        font-family: 'FontAwesome';
+        font-weight: bold;
+      }
+    }
+  }
+  .big{
+    li{
+      margin: 4px 0;
+    }
+  }
+  .login{
+    .form-group{
+      margin-bottom: 6px;
+    }
+    .form-control{
+      @include border-radius(0);
+      box-shadow: none;
+      border-color: $graydd;
+    }
+    .btn{
+      margin-top: 3px;
+    }
+    .btn-link{
+      padding-left: 0;
+      text-decoration: underline;
+      color: $menu;
+      font-size: 13px;
+    }
+  }
+  .last{
+    li{
+      border-bottom: 1px solid $graye5;
+      margin-bottom: 5px;
+      a{
+        text-decoration: underline; 
+        font-size: 14px;
+        color: $menu;
+        line-height: 19px;
+      }
+      .date{
+        display: block;
+        color: $grayc0;
+        font-size: 12px;
+        margin: 5px 0;
+      }
+    }
+  }
+
+/* FOOTER*/ 
+  footer{
+    background: $topbar;
+    margin-top: 40px;
+    .section-title{
+      color: white;
+      border-color: $footerdiv;
+      border-width: 2px;
+      margin-bottom: 0;
+      margin-top: 20px;
+    }
+    a{
+      color: white;
+      font-size: 12px;
+      text-transform: uppercase;
+      @include transition(all 0.2s ease-in-out);
+      &:hover{
+        color: $coptext;
+        text-decoration: none;
+      }
+    }
+    ul{
+      padding-left: 22px;
+      margin: 10px 0 30px;
+      li{
+        margin: 0;
+        line-height: 32px;
+        border-bottom: 1px solid $footerdiv;
+        &:last-child{
+          border-bottom: medium none;
+        }
+      }
+    }
+    .copyright{
+      background: $copyright;
+      line-height: 42px;
+      padding-top: 10px;
+      color: $coptext;
+      font-size: 13px;
+      text-align: center;
+      a{
+        color: $coptext;
+        font-size: 13px;
+        @include transition(all 0.2s ease-in-out);
+        &:hover{
+          color: white;
+        }
+      }
+    }
+  }
+
+/* Scrollbar */
+  .scrollbarMain {
+    clear: both;
+    margin: 20px 0 0;
+    .viewport {
+      height: 330px;
+      overflow: hidden;
+      position: relative;
+    }
+    &#scrollbarLast{
+      .viewport{
+        height: 147px;
+      }
+    }
+    .overview {
+      list-style: none;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .thumb, .end{
+      background-color: $divider;    
+    }
+    .scrollbar {
+      position: relative;
+      float: right;
+      width: 1px;
+    }
+    .track {
+      background-color: $divider;
+      height: 100%;
+      width:2px;
+      position: relative;
+      padding: 0 1px;
+    }
+    .thumb {
+      height: 37px;
+      width: 6px;
+      left: -2px;
+      cursor: pointer;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+    }
+    .end {
+      overflow: hidden;
+      height: 5px;
+      width: 6px;
+    }
+    .disable {
+      display: none;
+    } 
+  }
+
+/* CALENDAR */
+  .clndr{
+    margin-bottom: 20px;
+    .clndr-controls{
+      text-align: center;
+      position: relative;
+      line-height: 38px;
+      background: url("../img/clndr.png") repeat scroll 0 0 transparent;
+      .clndr-control-button{
+        position: absolute;
+        left: 10px;
+        top: 0;
+        color: white;
+        line-height: 38px;
+        font-size: 11px;
+        cursor: pointer;
+        &.rightalign{
+          left: auto;
+          right: 10px;
+        }
+      }
+      .month{
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+    .clndr-table{
+      width: 100%;
+      text-align: center;
+      border: 1px solid $grayd5;
+      background: url("../img/tr.png") repeat scroll 0 0 transparent;
+      .header-days{
+        background: $graye3;
+        .header-day{
+          color: $gray88;
+          line-height: 19px;
+        }
+      }
+      tr{
+        border-bottom: 1px solid $divider;
+        line-height: 30px;
+        td{
+          border-right: 1px solid $divider;
+        }
+        .day{
+          &:hover{
+
+          }
+          &.today, &.my-day{
+            &.event{
+
+            }
+            &:hover{
+
+            }
+          }
+          &.event, &.my-event{
+            &:hover{
+
+            }
+
+          }
+          &.inactive, &.my-inactive{
+
+          }
+          &:last-child{
+
+          }
+          &.day-contents{
+
+          }
+        }
+        .empty, .adjacent-month, .my-empty, .my-adjacent-month{
+          &:hover{
+
+          }
+          &:last-child{
+
+          }
+        }
+        &:last-child{
+          &.day, &.my-day{
+
+          }
+          &.empty, &.my-empty{
+            
+          }
+        }
+      }
+    }
+  } 
+  .desc{
+    margin: 0;
+    li{
+      border-style: solid;
+      border-width: 1px 1px 1px 8px;
+      border-color: $des1; 
+      color:  $des1;
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 38px;
+      margin-bottom: 6px;
+      padding-left: 15px;
+      &.des2{
+        border-color: $des2; 
+        color:  $des2;
+      }
+      &.des3{
+        border-color: $des3; 
+        color:  $des3;
+      }
+      &.des4{
+        border-color: $des4; 
+        color:  $des4;
+      }
+    }
+  }
+
+/* TAB */
+  .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+  }
+  .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+  }
+  .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 4px solid #c3d8f0;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid $menu;
+    position: relative;
+  }
+  .tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333333;
+  }
+
+/* SOCIAL */
+  .social{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10000;
+    width: 100%;
+    ul{
+      margin: 0;
+      li{
+        float: left;
+        width: 33.3%;
+        a{
+          background: #3b5998;
+          text-align: center;
+          display: block;
+          i{
+            width: 30px;
+            line-height: 40px;
+            color: white;
+          }
+        }
+        &.tw{
+          a{
+            background: #00b6ed;
+          }
+        }
+        &.gp{
+          a{
+            background: #f54c41;
+          }
+        }
+      }
+    }
+  } 

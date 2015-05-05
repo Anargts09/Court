@@ -1,0 +1,21 @@
+// *****************************************************************
+// Site Name: 
+// Author: 
+
+// Stylesheet: Super Large Monitor Stylesheet
+
+// You can add some advanced styles here if you like. This kicks in
+// on larger screens.
+
+// *****************************************************************
+	.navbar-default{
+	    ul{
+	      	li{
+	        	a{
+		          	margin: 0 2px;
+		          	font-size: 14px;
+		          	padding: 15px 22px;
+		        }
+		    }
+		}
+	}
