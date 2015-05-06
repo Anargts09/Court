@@ -1,1 +1,1628 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:transparent}a:focus{outline:0}a:active,a:hover{outline:0}h1{font-size:2em;margin:0.67em 0}abbr[title]{border-bottom:1px dotted}b,strong,.strong{font-weight:bold}dfn,em,.em{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}p{-webkit-hyphens:auto;-epub-hyphens:auto;-moz-hyphens:auto;hyphens:auto}pre{margin:0}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}q:before,q:after{content:'';content:none}small,.small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0}menu{padding:0 0 0 40px}ol,ul{padding:0;list-style-type:none}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.image-replacement,.ir{text-indent:100%;white-space:nowrap;overflow:hidden}.clearfix,.cf{zoom:1}.clearfix:before,.clearfix:after,.cf:before,.cf:after{content:"";display:table}.clearfix:after,.cf:after{clear:both}span.amp{font-family:Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;font-style:italic}body{font-family:"Roboto Condensed",sans-serif}.dividert{background:#ececec;width:100%;height:1px;margin:27px 0 24px}.top-bar{background:#0f5fac;font-size:10px;text-transform:uppercase;line-height:30px}.top-bar ul{margin:0 0 0 5px;padding:0;list-style:none}.top-bar ul li{display:inline-block;margin-right:15px}.top-bar ul li a{color:#95c7f6}.top-bar ul.pull-right li{margin-left:15px;margin-right:0}.header .bg{clear:both;width:100%;height:110px;background:url(../img/bg-header.png) no-repeat center}.header .bg form{margin-top:35px}.header .logo{display:block;margin-top:20px}.navbar-default{background:none repeat scroll 0 0 #0f5eac;border:medium none}.navbar-default ul{background:transparent}.navbar-default ul li a{color:#fff !important;margin:0 2px;font-size:14px;text-transform:uppercase}section .section-title{font-size:16px;margin-bottom:22px;font-weight:bold;text-transform:uppercase;color:#0f5fac;line-height:44px;float:left;margin-top:-15px;margin-right:15px}section .stripe-line{background:url("../img/title.png") repeat scroll 0 0 transparent;height:12px;margin-top:10px;overflow:hidden}section .section-content{clear:left}section .newsThumbnail{position:relative;display:block;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}section .newsThumbnail .overlay{background:rgba(0,0,0,0.7);position:absolute;bottom:0;left:0;padding:0 24px;width:100%}section .newsThumbnail .overlay .title{font-size:16px;color:white}section .newsThumbnail .overlay-bottom .title{font-size:15px;font-weight:bold;line-height:20px;color:#0f5eac}section .newsThumbnail .overlay-right .title{font-size:14px;font-weight:normal;color:#333;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;line-height:20px;margin-top:-0.2em}section .newsThumbnail .overlay-right .date{font-size:13px;color:#d5d5d5;float:right}section .newsThumbnail .left{float:left;margin-right:13px;width:112px;height:85px}section .newsThumbnail:hover{text-decoration:none}section .newsThumbnail:hover .overlay-right .title{color:#0f5eac}section .tab-content .newsThumbnail{padding:15px 0;border-bottom:1px solid #ececec}.links{margin:-6px 0 30px;padding-left:44px}.links li{position:relative;margin-bottom:8px}.links li a{font-size:14px;color:#797979}.links li:after{position:absolute;left:-26px;top:2px;content:"\f105";color:#797979;font-size:15px;font-family:'FontAwesome';font-weight:bold}.big li{margin:4px 0}.login .form-group{margin-bottom:6px}.login .form-control{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;box-shadow:none;border-color:#ddd}.login .btn{margin-top:3px}.login .btn-link{padding-left:0;text-decoration:underline;color:#0f5eac;font-size:13px}.last li{border-bottom:1px solid #e5e5e5;margin-bottom:5px}.last li a{text-decoration:underline;font-size:14px;color:#0f5eac;line-height:19px}.last li .date{display:block;color:silver;font-size:12px;margin:5px 0}footer{background:#0f5fac;margin-top:40px}footer .section-title{color:white;border-color:#4594e3;border-width:2px;margin-bottom:0;margin-top:20px}footer a{color:white;font-size:12px;text-transform:uppercase;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}footer a:hover{color:#2a90f2;text-decoration:none}footer ul{padding-left:22px;margin:10px 0 30px}footer ul li{margin:0;line-height:32px;border-bottom:1px solid #4594e3}footer ul li:last-child{border-bottom:medium none}footer .copyright{background:#0c457d;line-height:42px;padding-top:10px;color:#2a90f2;font-size:13px;text-align:center}footer .copyright a{color:#2a90f2;font-size:13px;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}footer .copyright a:hover{color:white}.scrollbarMain{clear:both;margin:20px 0 0}.scrollbarMain .viewport{height:330px;overflow:hidden;position:relative}.scrollbarMain#scrollbarLast .viewport{height:147px}.scrollbarMain .overview{list-style:none;position:absolute;left:0;top:0}.scrollbarMain .thumb,.scrollbarMain .end{background-color:#ececec}.scrollbarMain .scrollbar{position:relative;float:right;width:1px}.scrollbarMain .track{background-color:#ececec;height:100%;width:2px;position:relative;padding:0 1px}.scrollbarMain .thumb{height:37px;width:6px;left:-2px;cursor:pointer;overflow:hidden;position:absolute;top:0}.scrollbarMain .end{overflow:hidden;height:5px;width:6px}.scrollbarMain .disable{display:none}.clndr{margin-bottom:20px}.clndr .clndr-controls{text-align:center;position:relative;line-height:38px;background:url("../img/clndr.png") repeat scroll 0 0 transparent}.clndr .clndr-controls .clndr-control-button{position:absolute;left:10px;top:0;color:white;line-height:38px;font-size:11px;cursor:pointer}.clndr .clndr-controls .clndr-control-button.rightalign{left:auto;right:10px}.clndr .clndr-controls .month{color:white;text-transform:uppercase}.clndr .clndr-table{width:100%;text-align:center;border:1px solid #d5d5d5;background:url("../img/tr.png") repeat scroll 0 0 transparent}.clndr .clndr-table .header-days{background:#e3e3e3}.clndr .clndr-table .header-days .header-day{color:#888;line-height:19px}.clndr .clndr-table tr{border-bottom:1px solid #ececec;line-height:30px}.clndr .clndr-table tr td{border-right:1px solid #ececec}.desc{margin:0}.desc li{border-style:solid;border-width:1px 1px 1px 8px;border-color:#ca3737;color:#ca3737;text-transform:uppercase;font-size:14px;line-height:38px;margin-bottom:6px;padding-left:15px}.desc li.des2{border-color:#2b8df1;color:#2b8df1}.desc li.des3{border-color:#3f880a;color:#3f880a}.desc li.des4{border-color:#b1b1b1;color:#b1b1b1}.tabbable-line>.nav-tabs{border:none;margin:0px}.tabbable-line>.nav-tabs>li{margin-right:2px}.tabbable-line>.nav-tabs>li>a{border:0;margin-right:0;color:#737373}.tabbable-line>.nav-tabs>li.open,.tabbable-line>.nav-tabs>li:hover{border-bottom:4px solid #c3d8f0}.tabbable-line>.nav-tabs>li.open>a,.tabbable-line>.nav-tabs>li:hover>a{border:0;background:none !important;color:#333333}.tabbable-line>.nav-tabs>li.open .dropdown-menu,.tabbable-line>.nav-tabs>li:hover .dropdown-menu{margin-top:0px}.tabbable-line>.nav-tabs>li.active{border-bottom:4px solid #0f5eac;position:relative}.tabbable-line>.nav-tabs>li.active>a{border:0;color:#333333}.social{position:fixed;left:0;bottom:0;z-index:10000;width:100%}.social ul{margin:0}.social ul li{float:left;width:33.3%}.social ul li a{background:#3b5998;text-align:center;display:block}.social ul li a i{width:30px;line-height:40px;color:white}.social ul li.tw a{background:#00b6ed}.social ul li.gp a{background:#f54c41}@media only screen and (min-width: 768px){.navbar-default{background:url("../img/bg-menu.png") repeat scroll 0 0 transparent}.navbar-default ul li a{margin:0;font-size:11px;padding:15px 9px;background:url("../img/seperator.png") no-repeat scroll right center transparent !important}.navbar-default ul li:last-child a{background-image:none !important}.copyright{text-align:left !important}.social{position:fixed;top:50%;margin-top:-45px;width:30px}.social ul{-moz-border-radius-topright:3px;-webkit-border-top-right-radius:3px;border-top-right-radius:3px;-moz-border-radius-bottomright:3px;-webkit-border-bottom-right-radius:3px;border-bottom-right-radius:3px;overflow:hidden}.social ul li{float:none}.social ul li a{width:30px}.social ul li a i{width:30px;line-height:30px}}@media only screen and (min-width: 1024px){.navbar-default ul li a{margin:0 1px;font-size:14px;padding:15px 12px}.clndr{margin-bottom:0}}@media only screen and (min-width: 1240px){.navbar-default ul li a{margin:0 2px;font-size:14px;padding:15px 22px}}@media print{*{background:transparent !important;color:black !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important}a,a:visited{color:#444 !important;text-decoration:underline}a:after,a:visited:after{content:" (" attr(href) ")"}a abbr[title]:after,a:visited abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+
+Helpful articles on Sass file organization:
+http://thesassway.com/advanced/modular-css-naming-conventions
+
+******************************************************************/
+/*********************
+IMPORTING PARTIALS
+These files are needed at the beginning so that we establish all
+our mixins, functions, and variables that we'll be using across
+the whole project.
+*********************/
+/* normalize.css 2012-07-07T09:50 UTC - http://github.com/necolas/normalize.css */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/* line 12, ../sass/partials/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+/* line 31, ../sass/partials/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 42, ../sass/partials/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+/* line 52, ../sass/partials/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 67, ../sass/partials/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 77, ../sass/partials/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, ../sass/partials/_normalize.scss */
+a {
+  background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 97, ../sass/partials/_normalize.scss */
+a:focus {
+  outline: 0;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 105, ../sass/partials/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 119, ../sass/partials/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 128, ../sass/partials/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 136, ../sass/partials/_normalize.scss */
+b,
+strong,
+.strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 146, ../sass/partials/_normalize.scss */
+dfn,
+em,
+.em {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 156, ../sass/partials/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/*
+ * proper formatting (http://blog.fontdeck.com/post/9037028497/hyphens)
+*/
+/* line 166, ../sass/partials/_normalize.scss */
+p {
+  -webkit-hyphens: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+/*
+ * Addresses margins set differently in IE6/7.
+ */
+/* line 177, ../sass/partials/_normalize.scss */
+pre {
+  margin: 0;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 185, ../sass/partials/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 197, ../sass/partials/_normalize.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+/* line 205, ../sass/partials/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 212, ../sass/partials/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 218, ../sass/partials/_normalize.scss */
+small, .small {
+  font-size: 75%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 226, ../sass/partials/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 234, ../sass/partials/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 238, ../sass/partials/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+  Lists
+========================================================================== */
+/*
+ * Addresses margins set differently in IE6/7.
+ */
+/* line 250, ../sass/partials/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 257, ../sass/partials/_normalize.scss */
+dd {
+  margin: 0;
+}
+
+/*
+ * Addresses paddings set differently in IE6/7.
+ */
+/* line 265, ../sass/partials/_normalize.scss */
+menu {
+  padding: 0 0 0 40px;
+}
+
+/* line 269, ../sass/partials/_normalize.scss */
+ol,
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE7.
+ */
+/* line 279, ../sass/partials/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* ==========================================================================
+  Embedded content
+========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 293, ../sass/partials/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 301, ../sass/partials/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 313, ../sass/partials/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 325, ../sass/partials/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 336, ../sass/partials/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 347, ../sass/partials/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 361, ../sass/partials/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 373, ../sass/partials/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 386, ../sass/partials/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 398, ../sass/partials/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 408, ../sass/partials/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 420, ../sass/partials/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 432, ../sass/partials/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 441, ../sass/partials/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 452, ../sass/partials/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 465, ../sass/partials/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 472, ../sass/partials/_normalize.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 479, ../sass/partials/_normalize.scss */
+.image-replacement,
+.ir {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 487, ../sass/partials/_normalize.scss */
+.clearfix, .cf {
+  zoom: 1;
+}
+/* line 489, ../sass/partials/_normalize.scss */
+.clearfix:before, .clearfix:after, .cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+/* line 490, ../sass/partials/_normalize.scss */
+.clearfix:after, .cf:after {
+  clear: both;
+}
+
+/*
+use the best ampersand
+http://simplebits.com/notebook/2008/08/14/ampersands-2/
+*/
+/* line 497, ../sass/partials/_normalize.scss */
+span.amp {
+  font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
+  font-style: italic;
+}
+
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Variables
+
+Here is where we declare all our variables like colors, fonts,
+base values, and defaults. We want to make sure this file ONLY
+contains variables that way our files don't get all messy.
+No one likes a mess.
+
+******************************************************************/
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
+*/
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Sass Functions
+
+You can do a lot of really cool things in Sass. Functions help you
+make repeated actions a lot easier. They are really similar to mixins,
+but can be used for so much more.
+
+Anyway, keep them all in here so it's easier to find when you're
+looking for one.
+
+For more info on functions, go here:
+http://sass-lang.com/documentation/Sass/Script/Functions.html
+
+******************************************************************/
+/*********************
+COLOR FUNCTIONS
+These are helpful when you're working
+with shadows and such things. It's essentially
+a quicker way to write RGBA.
+
+Example:
+box-shadow: 0 0 4px black(0.3);
+compiles to:
+box-shadow: 0 0 4px rgba(0,0,0,0.3);
+*********************/
+/*********************
+RESPONSIVE HELPER FUNCTION
+If you're creating a responsive site, then
+you've probably already read
+Responsive Web Design: http://www.abookapart.com/products/responsive-web-design
+
+Here's a nice little helper function for calculating
+target / context
+as mentioned in that book.
+
+Example:
+width: cp(650px, 1000px);
+or
+width: calc-percent(650px, 1000px);
+both compile to:
+width: 65%;
+*********************/
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Mixins Stylesheet
+
+This is where you can take advantage of Sass' great features: Mixins.
+I won't go in-depth on how they work exactly,
+there are a few articles below that will help do that. What I will
+tell you is that this will help speed up simple changes like
+changing a color or adding CSS3 techniques gradients.
+
+A WORD OF WARNING: It's very easy to overdo it here. Be careful and
+remember less is more.
+
+Helpful:
+http://sachagreif.com/useful-sass-mixins/
+http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code
+http://web-design-weekly.com/blog/2013/05/12/handy-sass-mixins/
+
+******************************************************************/
+/*********************
+TRANSITION
+*********************/
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include transition(all 0.2s ease-in-out);
+*/
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can
+really slow down your CSS. Don't overdo it.
+*********************/
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
+/*********************
+BOX SIZING
+*********************/
+/* @include box-sizing(border-box); */
+/* NOTE: value of "padding-box" is only supported in Gecko. So
+probably best not to use it. I mean, were you going to anyway? */
+/*********************
+BASE (MOBILE) SIZE
+This are the mobile styles. It's what people see on their phones. If
+you set a great foundation, you won't need to add too many styles in
+the other stylesheets. Remember, keep it light: Speed is Important.
+*********************/
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Base Mobile Stylesheet
+
+Be light and don't over style since everything here will be
+loaded by mobile devices. You want to keep it as minimal as
+possible. This is called at the top of the main stylsheet
+and will be used across all viewports.
+
+******************************************************************/
+/*********************
+
+/* GENERAL */
+/* line 17, ../sass/breakpoints/_base.scss */
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* line 20, ../sass/breakpoints/_base.scss */
+.dividert {
+  background: #ececec;
+  width: 100%;
+  height: 1px;
+  margin: 27px 0 24px;
+}
+
+/* TOP BAR   */
+/* line 28, ../sass/breakpoints/_base.scss */
+.top-bar {
+  background: #0f5fac;
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+/* line 33, ../sass/breakpoints/_base.scss */
+.top-bar ul {
+  margin: 0 0 0 5px;
+  padding: 0;
+  list-style: none;
+}
+/* line 37, ../sass/breakpoints/_base.scss */
+.top-bar ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+/* line 40, ../sass/breakpoints/_base.scss */
+.top-bar ul li a {
+  color: #95c7f6;
+}
+/* line 45, ../sass/breakpoints/_base.scss */
+.top-bar ul.pull-right li {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+/* HEADER    */
+/* line 55, ../sass/breakpoints/_base.scss */
+.header .bg {
+  clear: both;
+  width: 100%;
+  height: 110px;
+  background: url(../img/bg-header.png) no-repeat center;
+}
+/* line 60, ../sass/breakpoints/_base.scss */
+.header .bg form {
+  margin-top: 35px;
+}
+/* line 64, ../sass/breakpoints/_base.scss */
+.header .logo {
+  display: block;
+  margin-top: 20px;
+}
+
+/* MAIN MENU */
+/* line 71, ../sass/breakpoints/_base.scss */
+.navbar-default {
+  background: none repeat scroll 0 0 #0f5eac;
+  border: medium none;
+}
+/* line 74, ../sass/breakpoints/_base.scss */
+.navbar-default ul {
+  background: transparent;
+}
+/* line 77, ../sass/breakpoints/_base.scss */
+.navbar-default ul li a {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: white !important;
+  margin: 0 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* line 85, ../sass/breakpoints/_base.scss */
+.navbar-default ul li.active a, .navbar-default ul li:hover a {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+/* line 90, ../sass/breakpoints/_base.scss */
+.navbar-default ul li.open a.dropdown-toggle {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+/* line 96, ../sass/breakpoints/_base.scss */
+.navbar-default .navbar-toggle {
+  float: left;
+  margin-left: 15px;
+  border-color: white;
+}
+/* line 100, ../sass/breakpoints/_base.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background: white;
+}
+
+/* MAIN CONTENT*/
+/* line 108, ../sass/breakpoints/_base.scss */
+section .section-title {
+  font-size: 16px;
+  margin-bottom: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0f5fac;
+  line-height: 44px;
+  float: left;
+  margin-top: -15px;
+  margin-right: 15px;
+}
+/* line 119, ../sass/breakpoints/_base.scss */
+section .stripe-line {
+  background: url("../img/title.png") repeat scroll 0 0 transparent;
+  height: 12px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+/* line 125, ../sass/breakpoints/_base.scss */
+section .section-content {
+  clear: left;
+}
+/* line 128, ../sass/breakpoints/_base.scss */
+section .newsThumbnail {
+  position: relative;
+  display: block;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 132, ../sass/breakpoints/_base.scss */
+section .newsThumbnail .overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 24px;
+  width: 100%;
+}
+/* line 139, ../sass/breakpoints/_base.scss */
+section .newsThumbnail .overlay .title {
+  font-size: 16px;
+  color: white;
+}
+/* line 145, ../sass/breakpoints/_base.scss */
+section .newsThumbnail .overlay-bottom .title {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #0f5eac;
+}
+/* line 153, ../sass/breakpoints/_base.scss */
+section .newsThumbnail .overlay-right .title {
+  font-size: 14px;
+  font-weight: normal;
+  color: #333333;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  line-height: 20px;
+  margin-top: -0.2em;
+}
+/* line 161, ../sass/breakpoints/_base.scss */
+section .newsThumbnail .overlay-right .date {
+  font-size: 13px;
+  color: #d5d5d5;
+  float: right;
+}
+/* line 167, ../sass/breakpoints/_base.scss */
+section .newsThumbnail .left {
+  float: left;
+  margin-right: 13px;
+  width: 112px;
+  height: 85px;
+}
+/* line 173, ../sass/breakpoints/_base.scss */
+section .newsThumbnail:hover {
+  text-decoration: none;
+}
+/* line 176, ../sass/breakpoints/_base.scss */
+section .newsThumbnail:hover .overlay-right .title {
+  color: #0f5eac;
+}
+/* line 183, ../sass/breakpoints/_base.scss */
+section .tab-content .newsThumbnail {
+  padding: 15px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+/* line 191, ../sass/breakpoints/_base.scss */
+.sub-content .content-header h2 {
+  text-align: justify;
+}
+/* line 194, ../sass/breakpoints/_base.scss */
+.sub-content .content-header .info {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0f5eac;
+}
+/* line 195, ../sass/breakpoints/_base.scss */
+.sub-content .content-header .info span {
+  line-height: 30px;
+  color: #0f5eac;
+  margin-right: 30px;
+}
+/* line 199, ../sass/breakpoints/_base.scss */
+.sub-content .content-header .info span i {
+  color: #0f5eac;
+  margin-right: 5px;
+}
+/* line 204, ../sass/breakpoints/_base.scss */
+.sub-content .content-header .info a {
+  background: #3b5998;
+  color: white;
+  line-height: 30px;
+  padding: 5px 20px;
+}
+/* line 209, ../sass/breakpoints/_base.scss */
+.sub-content .content-header .info a i {
+  color: white;
+  margin-right: 10px;
+}
+/* line 213, ../sass/breakpoints/_base.scss */
+.sub-content .content-header .info a.tw {
+  margin-left: 10px;
+  background: #00b6ed;
+}
+/* line 217, ../sass/breakpoints/_base.scss */
+.sub-content .content-header .info a:hover {
+  text-decoration: none;
+}
+/* line 226, ../sass/breakpoints/_base.scss */
+.sub-content .content-body {
+  padding: 10px 0;
+}
+/* line 228, ../sass/breakpoints/_base.scss */
+.sub-content .content-body p {
+  font-size: 15px;
+  color: #444;
+}
+/* line 232, ../sass/breakpoints/_base.scss */
+.sub-content .content-body ul {
+  list-style: disc;
+  padding-left: 15px;
+  color: #333;
+}
+/* line 237, ../sass/breakpoints/_base.scss */
+.sub-content .content-body img {
+  padding: 10px;
+  max-width: 100%;
+}
+/* line 240, ../sass/breakpoints/_base.scss */
+.sub-content .content-body img.pull-right {
+  padding: 10px 0 10px 20px;
+}
+/* line 243, ../sass/breakpoints/_base.scss */
+.sub-content .content-body img.pull-left {
+  padding: 10px 20px 10px 0;
+}
+/* line 249, ../sass/breakpoints/_base.scss */
+.sub-content .content-footer .share {
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-top: 3px solid #0f5eac;
+}
+/* line 250, ../sass/breakpoints/_base.scss */
+.sub-content .content-footer .share a {
+  background: #3b5998;
+  color: white;
+  line-height: 30px;
+  padding: 5px 20px;
+}
+/* line 255, ../sass/breakpoints/_base.scss */
+.sub-content .content-footer .share a i {
+  color: white;
+  margin-right: 10px;
+}
+/* line 259, ../sass/breakpoints/_base.scss */
+.sub-content .content-footer .share a.tw {
+  margin-left: 10px;
+  background: #00b6ed;
+}
+/* line 263, ../sass/breakpoints/_base.scss */
+.sub-content .content-footer .share a:hover {
+  text-decoration: none;
+}
+
+/* SIDEBAR*/
+/* line 275, ../sass/breakpoints/_base.scss */
+.links {
+  margin: -6px 0 30px;
+  padding-left: 44px;
+}
+/* line 278, ../sass/breakpoints/_base.scss */
+.links li {
+  position: relative;
+  margin-bottom: 8px;
+}
+/* line 281, ../sass/breakpoints/_base.scss */
+.links li a {
+  font-size: 14px;
+  color: #797979;
+}
+/* line 285, ../sass/breakpoints/_base.scss */
+.links li:after {
+  position: absolute;
+  left: -26px;
+  top: 2px;
+  content: "\f105";
+  color: #797979;
+  font-size: 15px;
+  font-family: 'FontAwesome';
+  font-weight: bold;
+}
+
+/* line 298, ../sass/breakpoints/_base.scss */
+.big li {
+  margin: 4px 0;
+}
+
+/* line 303, ../sass/breakpoints/_base.scss */
+.login .form-group {
+  margin-bottom: 6px;
+}
+/* line 306, ../sass/breakpoints/_base.scss */
+.login .form-control {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #dddddd;
+}
+/* line 311, ../sass/breakpoints/_base.scss */
+.login .btn {
+  margin-top: 3px;
+}
+/* line 314, ../sass/breakpoints/_base.scss */
+.login .btn-link {
+  padding-left: 0;
+  text-decoration: underline;
+  color: #0f5eac;
+  font-size: 13px;
+}
+
+/* line 322, ../sass/breakpoints/_base.scss */
+.last li {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 5px;
+}
+/* line 325, ../sass/breakpoints/_base.scss */
+.last li a {
+  text-decoration: underline;
+  font-size: 14px;
+  color: #0f5eac;
+  line-height: 19px;
+}
+/* line 331, ../sass/breakpoints/_base.scss */
+.last li .date {
+  display: block;
+  color: #c0c0c0;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+/* FOOTER*/
+/* line 341, ../sass/breakpoints/_base.scss */
+footer {
+  background: #0f5fac;
+  margin-top: 40px;
+}
+/* line 344, ../sass/breakpoints/_base.scss */
+footer .section-title {
+  color: white;
+  border-color: #4594e3;
+  border-width: 2px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+/* line 351, ../sass/breakpoints/_base.scss */
+footer a {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 356, ../sass/breakpoints/_base.scss */
+footer a:hover {
+  color: #2a90f2;
+  text-decoration: none;
+}
+/* line 361, ../sass/breakpoints/_base.scss */
+footer ul {
+  padding-left: 22px;
+  margin: 10px 0 30px;
+}
+/* line 364, ../sass/breakpoints/_base.scss */
+footer ul li {
+  margin: 0;
+  line-height: 32px;
+  border-bottom: 1px solid #4594e3;
+}
+/* line 368, ../sass/breakpoints/_base.scss */
+footer ul li:last-child {
+  border-bottom: medium none;
+}
+/* line 373, ../sass/breakpoints/_base.scss */
+footer .copyright {
+  background: #0c457d;
+  line-height: 42px;
+  padding-top: 10px;
+  color: #2a90f2;
+  font-size: 13px;
+  text-align: center;
+}
+/* line 380, ../sass/breakpoints/_base.scss */
+footer .copyright a {
+  color: #2a90f2;
+  font-size: 13px;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 384, ../sass/breakpoints/_base.scss */
+footer .copyright a:hover {
+  color: white;
+}
+
+/* Scrollbar */
+/* line 392, ../sass/breakpoints/_base.scss */
+.scrollbarMain {
+  clear: both;
+  margin: 20px 0 0;
+}
+/* line 395, ../sass/breakpoints/_base.scss */
+.scrollbarMain .viewport {
+  height: 330px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 401, ../sass/breakpoints/_base.scss */
+.scrollbarMain#scrollbarLast .viewport {
+  height: 147px;
+}
+/* line 405, ../sass/breakpoints/_base.scss */
+.scrollbarMain .overview {
+  list-style: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 411, ../sass/breakpoints/_base.scss */
+.scrollbarMain .thumb, .scrollbarMain .end {
+  background-color: #ececec;
+}
+/* line 414, ../sass/breakpoints/_base.scss */
+.scrollbarMain .scrollbar {
+  position: relative;
+  float: right;
+  width: 1px;
+}
+/* line 419, ../sass/breakpoints/_base.scss */
+.scrollbarMain .track {
+  background-color: #ececec;
+  height: 100%;
+  width: 2px;
+  position: relative;
+  padding: 0 1px;
+}
+/* line 426, ../sass/breakpoints/_base.scss */
+.scrollbarMain .thumb {
+  height: 37px;
+  width: 6px;
+  left: -2px;
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+/* line 435, ../sass/breakpoints/_base.scss */
+.scrollbarMain .end {
+  overflow: hidden;
+  height: 5px;
+  width: 6px;
+}
+/* line 440, ../sass/breakpoints/_base.scss */
+.scrollbarMain .disable {
+  display: none;
+}
+
+/* CALENDAR */
+/* line 446, ../sass/breakpoints/_base.scss */
+.clndr {
+  margin-bottom: 20px;
+}
+/* line 448, ../sass/breakpoints/_base.scss */
+.clndr .clndr-controls {
+  text-align: center;
+  position: relative;
+  line-height: 38px;
+  background: url("../img/clndr.png") repeat scroll 0 0 transparent;
+}
+/* line 453, ../sass/breakpoints/_base.scss */
+.clndr .clndr-controls .clndr-control-button {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  color: white;
+  line-height: 38px;
+  font-size: 11px;
+  cursor: pointer;
+}
+/* line 461, ../sass/breakpoints/_base.scss */
+.clndr .clndr-controls .clndr-control-button.rightalign {
+  left: auto;
+  right: 10px;
+}
+/* line 466, ../sass/breakpoints/_base.scss */
+.clndr .clndr-controls .month {
+  color: white;
+  text-transform: uppercase;
+}
+/* line 471, ../sass/breakpoints/_base.scss */
+.clndr .clndr-table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #d5d5d5;
+  background: url("../img/tr.png") repeat scroll 0 0 transparent;
+}
+/* line 476, ../sass/breakpoints/_base.scss */
+.clndr .clndr-table .header-days {
+  background: #e3e3e3;
+}
+/* line 478, ../sass/breakpoints/_base.scss */
+.clndr .clndr-table .header-days .header-day {
+  color: #888888;
+  line-height: 19px;
+}
+/* line 483, ../sass/breakpoints/_base.scss */
+.clndr .clndr-table tr {
+  border-bottom: 1px solid #ececec;
+  line-height: 30px;
+}
+/* line 486, ../sass/breakpoints/_base.scss */
+.clndr .clndr-table tr td {
+  border-right: 1px solid #ececec;
+}
+
+/* line 492, ../sass/breakpoints/_base.scss */
+.desc {
+  margin: 0;
+}
+/* line 494, ../sass/breakpoints/_base.scss */
+.desc li {
+  border-style: solid;
+  border-width: 1px 1px 1px 8px;
+  border-color: #ca3737;
+  color: #ca3737;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 38px;
+  margin-bottom: 6px;
+  padding-left: 15px;
+}
+/* line 504, ../sass/breakpoints/_base.scss */
+.desc li.des2 {
+  border-color: #2b8df1;
+  color: #2b8df1;
+}
+/* line 508, ../sass/breakpoints/_base.scss */
+.desc li.des3 {
+  border-color: #3f880a;
+  color: #3f880a;
+}
+/* line 512, ../sass/breakpoints/_base.scss */
+.desc li.des4 {
+  border-color: #b1b1b1;
+  color: #b1b1b1;
+}
+
+/* TAB */
+/* line 520, ../sass/breakpoints/_base.scss */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+
+/* line 524, ../sass/breakpoints/_base.scss */
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+
+/* line 527, ../sass/breakpoints/_base.scss */
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+
+/* line 532, ../sass/breakpoints/_base.scss */
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #c3d8f0;
+}
+
+/* line 535, ../sass/breakpoints/_base.scss */
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+
+/* line 540, ../sass/breakpoints/_base.scss */
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+
+/* line 543, ../sass/breakpoints/_base.scss */
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #0f5eac;
+  position: relative;
+}
+
+/* line 547, ../sass/breakpoints/_base.scss */
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+
+/* SOCIAL */
+/* line 553, ../sass/breakpoints/_base.scss */
+.social {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10000;
+  width: 100%;
+}
+/* line 559, ../sass/breakpoints/_base.scss */
+.social ul {
+  margin: 0;
+}
+/* line 561, ../sass/breakpoints/_base.scss */
+.social ul li {
+  float: left;
+  width: 33.3%;
+}
+/* line 564, ../sass/breakpoints/_base.scss */
+.social ul li a {
+  background: #3b5998;
+  text-align: center;
+  display: block;
+}
+/* line 568, ../sass/breakpoints/_base.scss */
+.social ul li a i {
+  width: 30px;
+  line-height: 40px;
+  color: white;
+}
+/* line 575, ../sass/breakpoints/_base.scss */
+.social ul li.tw a {
+  background: #00b6ed;
+}
+/* line 580, ../sass/breakpoints/_base.scss */
+.social ul li.gp a {
+  background: #f54c41;
+}
+
+/*********************
+LARGER MOBILE DEVICES
+This is for devices like the Galaxy Note or something that's
+larger than an iPhone but smaller than a tablet. Let's call them
+tweeners.
+*********************/
+@media only screen and (min-width: 480px) {
+  /******************************************************************
+  Site Name:
+  Author:
+  
+  Stylesheet: 480px and Up Stylesheet
+  
+  This stylesheet is loaded for larger devices. It's set to
+  481px because at 480px it would load on a landscaped iPhone.
+  This isn't ideal because then you would be loading all those
+  extra styles on that same mobile connection.
+  
+  A word of warning. This size COULD be a larger mobile device,
+  so you still want to keep it pretty light and simply expand
+  upon your base.scss styles.
+  
+  ******************************************************************/
+}
+/*********************
+TABLET & SMALLER LAPTOPS
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*********************/
+@media only screen and (min-width: 768px) {
+  /******************************************************************
+  Site Name:
+  Author:
+  
+  Stylesheet: Tablet & Small Desktop Stylesheet
+  
+  Here's where you can start getting into the good stuff.
+  This size will work on iPads, other tablets, and desktops.
+  So you can start working with more styles, background images,
+  and other resources. You'll also notice the grid starts to
+  come into play. Have fun!
+  
+  ******************************************************************/
+  /* MAIN MENU */
+  /* line 15, ../sass/breakpoints/_768up.scss */
+  .navbar-default {
+    background: url("../img/bg-menu.png") repeat scroll 0 0 transparent;
+  }
+  /* line 19, ../sass/breakpoints/_768up.scss */
+  .navbar-default ul li a {
+    margin: 0;
+    font-size: 11px;
+    padding: 15px 8px;
+    background: url("../img/seperator.png") no-repeat scroll right center transparent !important;
+  }
+  /* line 26, ../sass/breakpoints/_768up.scss */
+  .navbar-default ul li:last-child a {
+    background-image: none !important;
+  }
+  /* line 30, ../sass/breakpoints/_768up.scss */
+  .navbar-default ul li ul {
+    background: #fefefe;
+    width: auto;
+    min-width: 100%;
+  }
+  /* line 35, ../sass/breakpoints/_768up.scss */
+  .navbar-default ul li ul li a {
+    background: none repeat scroll 0 0 transparent !important;
+    color: #0f5eac !important;
+    padding: 5px 15px;
+  }
+
+  /* FOOTER */
+  /* line 46, ../sass/breakpoints/_768up.scss */
+  .copyright {
+    text-align: left !important;
+  }
+
+  /* SOCIAL */
+  /* line 49, ../sass/breakpoints/_768up.scss */
+  .social {
+    position: fixed;
+    top: 50%;
+    margin-top: -45px;
+    width: 30px;
+  }
+  /* line 54, ../sass/breakpoints/_768up.scss */
+  .social ul {
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+  }
+  /* line 57, ../sass/breakpoints/_768up.scss */
+  .social ul li {
+    float: none;
+  }
+  /* line 59, ../sass/breakpoints/_768up.scss */
+  .social ul li a {
+    width: 30px;
+  }
+  /* line 61, ../sass/breakpoints/_768up.scss */
+  .social ul li a i {
+    width: 30px;
+    line-height: 30px;
+  }
+}
+/*********************
+DESKTOP
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*********************/
+@media only screen and (min-width: 1024px) {
+  /******************************************************************
+  Site Name:
+  Author:
+  
+  Stylesheet: Desktop Stylsheet
+  
+  This is the desktop size. It's larger than an iPad so it will only
+  be seen on the Desktop.
+  
+  ******************************************************************/
+  /* line 14, ../sass/breakpoints/_1024up.scss */
+  .navbar-default ul li a {
+    margin: 0 1px;
+    font-size: 14px;
+    padding: 15px 11px;
+  }
+
+  /* line 23, ../sass/breakpoints/_1024up.scss */
+  .clndr {
+    margin-bottom: 0;
+  }
+}
+/*********************
+LARGE VIEWING SIZE
+This is for the larger monitors and possibly full screen viewers.
+*********************/
+@media only screen and (min-width: 1240px) {
+  /* line 14, ../sass/breakpoints/_1240up.scss */
+  .navbar-default ul li a {
+    margin: 0 2px;
+    font-size: 14px;
+    padding: 15px 22px;
+  }
+}
+/*********************
+RETINA (2x RESOLUTION DEVICES)
+This applies to the retina iPhone (4s) and iPad (2,3) along with
+other displays with a 2x resolution. You can also create a media
+query for retina AND a certain size if you want. Go Nuts.
+*********************/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /******************************************************************
+  Site Name: 
+  Author: 
+  
+  Stylesheet: Retina Screens & Devices Stylesheet
+  
+  When handling retina screens you need to make adjustments, especially
+  if you're not using font icons. Here you can add them in one neat
+  place.
+  
+  ******************************************************************/
+  /* 
+  
+  EXAMPLE 
+  Let's say you have an image and you need to make sure it looks ok
+  on retina screens. Let's say we have an icon which dimension are
+  24px x 24px. In your regular stylesheets, it would look something
+  like this:
+  
+  .icon {
+  	width: 24px;
+  	height: 24px;
+  	background: url(img/test.png) no-repeat;
+  }
+  
+  For retina screens, we have to make some adjustments, so that image
+  doesn't look blurry. So, taking into account the image above and the
+  dimensions, this is what we would put in our retina stylesheet:
+  
+  .icon {
+  	background: url(img/test@2x.png) no-repeat;
+  	background-size: 24px 24px;
+  }
+  
+  So, you would create the same icon, but at double the resolution, meaning 
+  it would be 48px x 48px. You'd name it the same, but with a @2x at the end
+  (this is pretty standard practice). Set the background image so it matches
+  the original dimensions and you are good to go. 
+  
+  */
+}
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+@media print {
+  /******************************************************************
+  Site Name:
+  Author:
+  
+  Stylesheet: Print Stylesheet
+  
+  This is the print stylesheet. There's probably not a lot
+  of reasons to edit this stylesheet. If you want to
+  though, go for it.
+  
+  ******************************************************************/
+  /* line 13, ../sass/partials/_print.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* line 21, ../sass/partials/_print.scss */
+  a, a:visited {
+    color: #444 !important;
+    text-decoration: underline;
+  }
+  /* line 26, ../sass/partials/_print.scss */
+  a:after, a:visited:after {
+    content: " (" attr(href) ")";
+  }
+  /* line 31, ../sass/partials/_print.scss */
+  a abbr[title]:after, a:visited abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 36, ../sass/partials/_print.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 42, ../sass/partials/_print.scss */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 47, ../sass/partials/_print.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 51, ../sass/partials/_print.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 55, ../sass/partials/_print.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+  /* line 63, ../sass/partials/_print.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 68, ../sass/partials/_print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
