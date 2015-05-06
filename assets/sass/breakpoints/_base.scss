@@ -75,11 +75,30 @@ and will be used across all viewports.
       background: transparent;
       li{
         a{
+          @include transition(all 0.2s ease-in-out);
           color: white!important;
           margin: 0 2px;
           font-size: 14px;
           text-transform: uppercase;
         }
+        &.active, &:hover{
+          a{
+            background-color: rgba(255,255,255,0.3)!important;
+          }
+        }
+        &.open{
+          a.dropdown-toggle{
+            background-color: rgba(255,255,255,0.3)!important;
+          }
+        }
+      }
+    }
+    .navbar-toggle{
+      float: left;
+      margin-left: 15px;
+      border-color: white;
+      .icon-bar{
+        background: white;
       }
     }
   }
@@ -164,6 +183,90 @@ and will be used across all viewports.
       .newsThumbnail{
         padding: 15px 0;
         border-bottom: 1px solid $divider;
+      }
+    }
+  }
+  .sub-content{
+    .content-header{
+      h2{
+        text-align: justify;
+      }
+      .info{
+        span{
+          line-height: 30px;
+          color: $menu;
+          margin-right: 30px;
+          i{
+            color: $menu;
+            margin-right: 5px;
+          }
+        }
+        a{
+          background: #3b5998;
+          color: white;
+          line-height: 30px;
+          padding: 5px 20px;
+          i{
+            color: white;
+            margin-right: 10px;
+          }
+          &.tw{
+            margin-left: 10px;
+            background: #00b6ed;            
+          }
+          &:hover{
+            text-decoration: none;
+          }
+        }
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid $menu;
+      }
+    }
+    .content-body{
+      padding: 10px 0;
+      p{
+        font-size: 15px;
+        color: #444;
+      }
+      ul{
+        list-style: disc;
+        padding-left: 15px;
+        color: #333;
+      }
+      img{
+        padding: 10px;
+        max-width: 100%;
+        &.pull-right{
+          padding: 10px 0 10px 20px;
+        }
+        &.pull-left{
+          padding: 10px 20px 10px 0;
+        }
+      }
+    }
+    .content-footer{
+      .share{
+        a{
+          background: #3b5998;
+          color: white;
+          line-height: 30px;
+          padding: 5px 20px;
+          i{
+            color: white;
+            margin-right: 10px;
+          }
+          &.tw{
+            margin-left: 10px;
+            background: #00b6ed;            
+          }
+          &:hover{
+            text-decoration: none;
+          }
+        }
+        margin-bottom: 10px;
+        padding: 10px 0;
+        border-top: 3px solid $menu;
       }
     }
   }
@@ -382,50 +485,6 @@ and will be used across all viewports.
         line-height: 30px;
         td{
           border-right: 1px solid $divider;
-        }
-        .day{
-          &:hover{
-
-          }
-          &.today, &.my-day{
-            &.event{
-
-            }
-            &:hover{
-
-            }
-          }
-          &.event, &.my-event{
-            &:hover{
-
-            }
-
-          }
-          &.inactive, &.my-inactive{
-
-          }
-          &:last-child{
-
-          }
-          &.day-contents{
-
-          }
-        }
-        .empty, .adjacent-month, .my-empty, .my-adjacent-month{
-          &:hover{
-
-          }
-          &:last-child{
-
-          }
-        }
-        &:last-child{
-          &.day, &.my-day{
-
-          }
-          &.empty, &.my-empty{
-            
-          }
         }
       }
     }
