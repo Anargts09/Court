@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="assets/css/bootstrap.css" media="all">
+		<link rel="stylesheet" href="assets/css/ekko-lightbox.min.css" media="all">
 		<link rel="stylesheet" href="assets/css/style.css" media="all">
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -46,14 +47,19 @@
 						 	</a>
 						</div>
 						<div class="col-sm-3 hidden-xs pull-right">
-						 	<form>
-						 		<div class="input-group">
-								  <input type="text" class="form-control" placeholder="вэб сайтаас хайх ...">
-								  <span class="input-group-btn">
-								  	<button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-								  </span>
-								</div>
-						 	</form>
+							<script>
+							  (function() {
+							    var cx = '013171371929879870234:ovdiebfoisg';
+							    var gcse = document.createElement('script');
+							    gcse.type = 'text/javascript';
+							    gcse.async = true;
+							    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+							        '//cse.google.com/cse.js?cx=' + cx;
+							    var s = document.getElementsByTagName('script')[0];
+							    s.parentNode.insertBefore(gcse, s);
+							  })();
+							</script>
+							<gcse:search></gcse:search>
 						</div>
 					</div>
 				</div>
@@ -110,9 +116,9 @@
 					<section class="sub-content">
 
 						<div class="content-header">
-							<h2 class="content-title">
+							<h3 class="content-title">
 								"Шүүх нээлттэй байна гэдэг хэрэг маргааны үйл явц, хурал олон нийтэд нээлттэй байхыг хэлнэ" 
-							</h2>
+							</h3>
 							<div class="info">
 								<div class="row">
 									<div class="col-md-6">
@@ -131,13 +137,15 @@
 
 							<p>Хэлэлцүүлгийн үеэр Шүүхийн ерөнхий зөвлөлийн зүгээс “Шүүхийн тухай багц хуулийн баримтлал”, “Шүүхийн бүтэц зохион байгуулалгын өөрчлөлт”, “Шүүгчийн сонгон шалгаруулалт”-ын талаар дэлгэрэнгүй мэдээлэл өгсөн юм.</p>
 
-							<h3 class="left">Шүүхийн ерөнхий зөвлөлийн гүйцэтгэх нарийн бичгийн дарга Т.Мэндсайхан</h3>
+							<h4 class="left">Шүүхийн ерөнхий зөвлөлийн гүйцэтгэх нарийн бичгийн дарга Т.Мэндсайхан</h4>
 
-							<img src="http://lorempixel.com/300/400/business/2" class="img-rounded pull-left" alt="">
+							<a data-footer="A custom footer text" data-title="A random title" data-toggle="lightbox" href="assets/img/1.jpe">
+								<img src="assets/img/1.jpe" class="img-rounded pull-left" alt="">
+							</a>
 
 							<p>Шүүхийн ерөнхий зөвлөлийн гүйцэтгэх нарийн бичгийн дарга Т.Мэндсайхан “Өнөөдрийн хэлэлцүүлэг бол шүүхийн нээлттэй үйл ажиллагааг бий болгохын тулд хийж байгаа арга хэмжээ юм. Шүүх нээлттэй байна гэдэг маань шүүхээр орж байгаа хэрэг маргааны үйл явц, шүүх хуралдаан, шүүхээс гарсан шийдвэр олон нийтэд нээлттэй байхыг хэлж байгаа. Тийм учраас шүүхийн чиглэлээр мэргэшсэн, иргэдэд зөв мэдээлэл өгөх зорилготойгоор сэтгүүлчдийн дунд сургалт зохион байгуулж байгаа юм” гэлээ.</p>
 
-							<h3>Иргэдэд хүрч ойртож ажиллахын тулд шүүхийн байгууллагын зүгээс дараах ажлуудыг хийж байгаа аж.</h3>
+							<h4>Иргэдэд хүрч ойртож ажиллахын тулд шүүхийн байгууллагын зүгээс дараах ажлуудыг хийж байгаа аж.</h4>
 
 						    <ul>
 						        <li>Давж заалдах шатны шүүхүүдийг газар нутгаар бүсчилэн байгуулсан</li>
@@ -177,7 +185,9 @@
 								</tbody>
 							</table>
 
-							<img src="http://lorempixel.com/250/140/business/2" class="img-rounded pull-right" alt="">
+							<a data-footer="A custom footer text" data-title="A random title" data-toggle="lightbox" href="assets/img/2.jpe">
+								<img src="assets/img/2.jpe" class="img-rounded pull-right" alt="">
+							</a>
 
 							<p>“Шүүхийн ерөнхий зөвлөллөөс “Шүүх ба олон нийт” хөтөлбөрийг батлахаар ажиллаж байна. Энэ хөтөлбөрийн хүрээнд сэтгүүлчдэд шүүхийн үйл ажиллагааг бодит үнэн зөвөөр мэдээлэх мэдлэгтэй болгох сургалтууд зохион байгуулна. Цаашдаа ЕБС, Их дээд сургуулиудад шүүх эрх мэдлийн талаар хичээл оруулах, сурах бичигт багтаах талаар анхаарч ажиллана” хэмээн Шүүхийн Хэвлэл мэдээлэл олон нийттэй харилцах хэлтсийн дарга Л.Бямбаа хэллээ.</p>
 
@@ -218,6 +228,45 @@
 									<p>Цаашид Шүүхийн байгууллагын зүгээс иргэдэд зөв мэдээлэл хүргэж байхын тулд шүүх хуралдаанд ямар журмаар нэвтэрч, хэрхэн сурвалжлах, шүүгч болон хэргийн оролцогчдоос ярилцлага авч болох эсэхтэй холбоотой асуудлаар сургалтуудыг зохион байгуулах ажээ.</p>
 								</div>
 							</div>
+
+							<table class="table">
+								<thead>
+									<tr class="info">
+										<th>Огноо</th>
+										<th>Дугаар</th>
+										<th>Шүүх</th>
+										<th>Шүүгч</th>
+										<th>Нэхэмжлэгч</th>
+										<th class="danger">Хариуцагч</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">2014.01.06</th>
+										<td>02</td>
+										<td>Улсын дээд шүүх</td>
+										<td>Лхүндэвийн Атарцэцэг</td>
+										<td>"Дорнын говь" ХХК</td>
+										<td class="danger">Дорноговь аймгийн Газрын харилцаа, барилга, хот байгуулалтын газар болон тус аймгийн Засаг дарга</td>
+									</tr>
+									<tr>
+										<th scope="row">2014.01.06</th>
+										<td>01</td>
+										<td>Улсын дээд шүүх</td>
+										<td>Пүрэвийн Цэцгээ</td>
+										<td>“Эрдэнэт импекс” ХХК</td>
+										<td class="danger">Орхон аймгийн Засаг дарга </td>
+									</tr>
+									<tr>
+										<th scope="row">2014.01.06</th>
+										<td>3</td>
+										<td>Улсын дээд шүүх</td>
+										<td>Мишигийн Батсуурь</td>
+										<td>Баян-Өлгий аймгийн Ахмадын Хороо</td>
+										<td class="danger">Баян-Өлгий аймгийн иргэдийн Төлөөлөгчдийн Хурлын Тэргүүлэгчдэд </td>
+									</tr>
+								</tbody>
+							</table>
 
 						</div>
 
