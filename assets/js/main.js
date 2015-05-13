@@ -16,3 +16,8 @@ $(function() {
 	    setTimeout(function(){$('#'+number+'').tinyscrollbar();}, 500);
     });
 });
+
+$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+}); 

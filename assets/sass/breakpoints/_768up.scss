@@ -32,10 +32,18 @@ come into play. Have fun!
           width: auto;
           min-width: 100%;
           li{
+              @include transition(all 0.2s ease-in-out);
             a{
               background: none repeat scroll 0 0 transparent!important;
               color: $menu!important;
               padding: 5px 15px;
+              @include transition(color 0.2s ease-in-out);
+            }
+            &:hover{
+              background: none repeat scroll 0 0 rgba(20, 100, 255, 0.1) !important;
+              a{
+                color: $black!important;
+              }
             }
           }
         }

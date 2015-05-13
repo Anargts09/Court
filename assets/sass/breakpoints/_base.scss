@@ -57,8 +57,15 @@ and will be used across all viewports.
       width: 100%;
       height: 110px;
       background: url(../img/bg-header.png) no-repeat center;
-      form{
-        margin-top: 35px
+      .gsc-control-cse{
+        margin-top: 35px;
+        padding: 0;
+        form{
+          margin: 0;
+        }
+        .gsib_a{
+          padding: 0;
+        }
       }
     }
     .logo{
