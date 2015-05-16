@@ -61,10 +61,10 @@ and will be used across all viewports.
         margin-top: 35px;
         padding: 0;
         form{
-          margin: 0;
+          // margin: 0;
         }
         .gsib_a{
-          padding: 0;
+          // padding: 0;
         }
       }
     }
@@ -187,6 +187,9 @@ and will be used across all viewports.
       }
     }
     .tab-content{
+      section{
+        min-height: 330px;
+      }
       .newsThumbnail{
         padding: 15px 0;
         border-bottom: 1px solid $divider;
@@ -274,6 +277,47 @@ and will be used across all viewports.
         margin-bottom: 10px;
         padding: 10px 0;
         border-top: 3px solid $menu;
+      }
+    }
+    &.category{
+      .item{
+        padding: 20px 0;
+        border-bottom: 1px solid $grayd5;
+        .more{
+          float: right;
+        }
+      }
+      .newsThumbnail {
+        img{
+          width: 202px;
+          height: 135px;
+          padding: 0;
+        }
+      }
+      .title{
+        margin-top: -5px;
+        font-size: 16px;
+        display: block;
+        color: $black;
+        font-size: 18px;
+        text-decoration: none;
+      }
+      span{
+        color: $gray88;
+        font-size: 13px;
+        margin-right: 0.8em;
+        i{
+          margin-right: 0.4em;
+        }
+        &.date{
+        }
+        &.view{
+        }
+        &.desc{
+          display: block;
+          color: $black;
+          margin: 5px 0;
+        }
       }
     }
   }
