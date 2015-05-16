@@ -60,17 +60,21 @@ and will be used across all viewports.
       .gsc-control-cse{
         margin-top: 35px;
         padding: 0;
-        form{
-          // margin: 0;
-        }
-        .gsib_a{
-          // padding: 0;
-        }
+        background: transparent;
+        border: medium none;
       }
     }
     .logo{
       display: block;
       margin-top: 20px;
+    }
+    input.gsc-input,
+    .gsc-input-box,
+    .gsc-input-box-hover,
+    .gsc-input-box-focus,
+    .gsc-search-button {
+        box-sizing: content-box; 
+        line-height: normal;
     }
   }
 
